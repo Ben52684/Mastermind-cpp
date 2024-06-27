@@ -2,12 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-// THIS IS A FUNCTION
-int add(int a, int b) {
-    return a + b;
-}
-
-
 int main() 
 {
     srand(time(NULL));
@@ -18,8 +12,6 @@ int main()
     {
         printf("Please enter your masterMind number\n");
         scanf("%d", &guessedNumber);
-
-
         if (guessedNumber > masterMindNumber) {
             printf("Number too high!\n");
         } 
